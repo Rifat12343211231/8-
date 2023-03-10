@@ -25,7 +25,7 @@ img {
 
 .title {
     text-align: center;
-    animation: zoom 2s 9s;
+    animation: zoom 2s 9s backwards;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     color: yellow;
@@ -43,6 +43,7 @@ img {
 .main__back-wrap {
     position: relative;
     animation: run-left 3s 6s forwards;
+    right: 50px;
 }
 
 .main__back-img {}
@@ -70,6 +71,6 @@ img {
 
 @keyframes run-right {
     100% {
-        transform: translateX(450px)
+        transform: translateX(405px)
     }
 }
